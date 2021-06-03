@@ -1,0 +1,142 @@
+html {
+	overflow-y: scroll;
+	font-family: Arial,Helvetica,sans-serif, "宋体";
+}
+
+/* 全局 */
+body, table, tr, td, input{
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	color: #333;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #4559E9;
+	text-decoration: underline;
+}
+
+hr {
+	margin: 0;
+	margin-bottom: 20px;
+	border: none;
+	border-top: 1px solid #ccc;
+}
+
+.logo {
+	text-decoration: none;
+}
+
+.container {
+
+	width: 970px;
+	margin: 0 auto;
+
+}
+
+.header {
+	padding-top: 10px;
+}
+
+.footer {
+	text-align: center;
+}
+
+.login_info {
+
+	float: right;
+	margin-top: 10px;
+
+}
+
+.breadcrumb {
+	margin-bottom: 20px;
+}
+
+.breadcrumb a {
+	color: #4559E9;
+	margin: 0;
+}
+
+table {
+	border-collapse: collapse;
+	width: 100%;
+	border-color: #ccc;
+}
+
+table td {
+	padding: 8px;
+	border: 1px solid #ccc;
+}
+
+table thead td {
+	color: #fff;
+	background: #7aa3fa;
+}
+
+input[type=text], textarea {
+	width: 962px;
+	vertical-align: middle;
+	padding: 8px 0px 8px 6px;
+	font-size: 16px;
+	font-weight: bold;
+	outline: none;
+	border: 1px solid #4684ff;
+	margin-bottom: 10px;
+}
+
+input[type=submit] {
+	outline: none;
+	border: none;
+	padding: 12px 20px;
+	color: #fff;
+	background: #4684ff;
+	cursor: pointer;
+	vertical-align: middle;
+	font-weight: bold;
+	font-size: 14px;
+	margin-bottom: 10px;	
+}
+
+input[type=submit]:hover {
+	background: #77a5ff;
+}
+
+.header_form input[type=text] {
+	
+	display: inline;
+	padding: 2px 0px 2px 2px;
+	width: 100px;
+	font-size: 14px;
+	margin-bottom: 0;
+	font-weight: normal;
+}
+
+.header_form input[type=submit] {
+
+	padding: 3px 10px;
+	margin-bottom: 0;
+	font-weight: normal;
+
+}
+
+.register form input {
+	display: inline-block;
+	width: 300px;
+}
+
+.register form input[type=submit] {
+	width: 200px;
+	margin-left: 40px;
+}
+
+ul.form_msg {
+	color: #ae4847;
+	background: #fddbda;
+	border: 1px solid #f06261;
+	padding: 10px 30px;
+	/* list-style: none; */
+}
